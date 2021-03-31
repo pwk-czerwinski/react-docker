@@ -10,9 +10,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 # install app dependencies
 COPY package.json ./
 COPY package-lock.json ./
-RUN npm config set unsafe-perm true
-RUN npm install --unsafe-perm --silent
-RUN npm install react-scripts@4.0.3 -g --silent
+RUN npm install
 
 # add app
 COPY . ./
