@@ -60,7 +60,7 @@ Runs docker container.
 
 After these steps you should have new ran docker container with your React application.
 
-You can also log in to your container by following command:
+You can also log in to your container by following commands:
 
 ### `docker container ps`
 
