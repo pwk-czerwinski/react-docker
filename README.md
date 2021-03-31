@@ -70,6 +70,8 @@ After running above command please copy your container ID and use in below comma
 
 After these steps, you are inside React app project as in the local environment on your local machine. And you can run npm start and other commands what you want.
 
+### `exit`
+Log out from container.
 
 ## Learn More
 
